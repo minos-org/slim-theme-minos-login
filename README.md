@@ -1,12 +1,14 @@
 ## About
 
-[Slim](http://slim.berlios.de/) is a graphical display manager for the X Window System that can be run independently of any window manager or desktop environment. This is a theme for slim running in Minos systems.
+[Slim](http://slim.berlios.de/) is a graphical display manager for the X Window System that can be run independently of any window manager or desktop environment. This is a theme for the minos project.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/minos-org/slim-theme-minos-login/master/screenshots/minos-login-username.png" alt="minos-login-theme"/>
 </p>
 
 ## Quick start
+
+### On Ubuntu (only LTS releases)
 
 1. Set up the minos archive:
 
@@ -22,13 +24,13 @@
 
 3. Enjoy ☺!
 
-## Uninstalling
+### On other Linux distributions
 
-If by any reason you dislike [slim-theme-minos-login](https://github.com/minos-org/slim-theme-minos-login) you can uninstall it as any other deb package:
+1. Type `sudo mkdir -p /usr/share/slim/themes/minos-login`
 
-   ```
-   $ sudo apt-get remove slim-theme-minos-login
-   ```
+2. Copy files `sudo cp screenshots *jpg *png *theme /usr/share/slim/themes/minos-login`
+
+3. Set the default theme `current_theme minos-login` in **/etc/slim.conf**
 
 ## Feedback
 
